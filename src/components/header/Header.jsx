@@ -1,4 +1,4 @@
-import downArrow from '../images/icon-arrow-down.svg';
+import downArrow from '../../images/icon-arrow-down.svg';
 
 import Navbar from './Navbar';
 
