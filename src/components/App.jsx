@@ -1,5 +1,6 @@
 import Header from './header/Header';
 import Products from './products/Products';
+import ClientTestimonials from './testimonials/ClientTestimonials';
 
 const App = () => {
   return (
@@ -7,6 +8,7 @@ const App = () => {
       <Header />
       <main>
         <Products />
+        <ClientTestimonials />
       </main>
     </div>
   );
