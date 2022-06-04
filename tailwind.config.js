@@ -5,6 +5,10 @@ module.exports = {
       backgroundImage: {
         'mobile-header-image':
           "url('./src/images/mobile/image-header.jpg')",
+        'mobile-product-image__graphic-design':
+          "url('./src/images/mobile/image-graphic-design.jpg')",
+        'mobile-product-image__photography':
+          "url('./src/images/mobile/image-photography.jpg')",
       },
       fontFamily: {
         barlow: ['Barlow', 'sans-serif'],
@@ -17,7 +21,7 @@ module.exports = {
         // (graphic design text)
         'dark-desaturated-cyan': 'hsl(167, 40%, 24%)',
         // (photography text)
-        'dark-blue': 'hsl(198, 62 %, 26 %)',
+        'dark-blue': 'hsl(198, 62%, 26%)',
         // (footer)
         'dark-moderate-cyan': 'hsl(168, 34%, 41%)',
 
