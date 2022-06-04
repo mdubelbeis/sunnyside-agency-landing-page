@@ -24,7 +24,9 @@ module.exports = {
         'dark-blue': 'hsl(198, 62%, 26%)',
         // (footer)
         'dark-moderate-cyan': 'hsl(168, 34%, 41%)',
-
+        'light-mint': '#90D4C6',
+        'mid-mint': '#458D7E',
+        'dark-mint': '#2C7566',
         //> Nuetrals
         'very-dark-desaturated-blue': 'hsl(212, 27%, 19%)',
         'very-dark-grayish-blue': 'hsl(213, 9%, 39%)',
