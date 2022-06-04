@@ -1,6 +1,7 @@
 import Header from './header/Header';
 import Products from './products/Products';
 import ClientTestimonials from './testimonials/ClientTestimonials';
+import Images from './Images';
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <main>
         <Products />
         <ClientTestimonials />
+        <Images />
       </main>
     </div>
   );
