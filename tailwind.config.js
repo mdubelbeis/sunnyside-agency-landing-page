@@ -10,7 +10,7 @@ module.exports = {
         barlow: ['Barlow', 'sans-serif'],
         fraunces: ['Fraunces', 'serif'],
       },
-      color: {
+      colors: {
         //> PRIMARIES
         'soft-red': 'hsl(7, 99%, 70%)',
         yellow: 'hsl(51, 100%, 49%)',
