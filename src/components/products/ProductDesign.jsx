@@ -7,7 +7,7 @@ const ProductDesign = ({ title, description, bgImage }) => {
         <h2 className="text-3xl text-very-dark-desaturated-blue">
           {title}
         </h2>
-        <p className="text-md font-barlow leading-6 tracking-wide text-dark-blue font-light">
+        <p className="text-md font-barlow leading-6 tracking-wide text-dark-blue font-light md:px-20">
           {description}
         </p>
       </div>

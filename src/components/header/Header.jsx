@@ -1,10 +1,8 @@
-import downArrow from '../../images/icon-arrow-down.svg';
-
 import Navbar from './Navbar';
 
 const Header = () => {
   return (
-    <header className="w-full h-[538px] bg-mobile-header-image bg-no-repeat bg-cover p-4">
+    <header className="w-full h-[700px] bg-mobile-header-image bg-no-repeat bg-cover p-4">
       <Navbar />
       <div className="flex flex-col items-center space-y-16">
         <div className="mt-16">
@@ -13,7 +11,22 @@ const Header = () => {
           </h1>
         </div>
         <div>
-          <img src={downArrow} alt="down arrow" />
+          <svg
+            width="36"
+            height="114"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              stroke="#FFF"
+              strokeWidth="6"
+              fill="none"
+              fillRule="evenodd"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M18 3v100M3 95.484l15 15 15-15" />
+            </g>
+          </svg>
         </div>
       </div>
     </header>

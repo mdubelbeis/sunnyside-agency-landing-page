@@ -1,7 +1,9 @@
+import { useState } from 'react';
+
 import mobileEgg from '../../images/mobile/image-transform.jpg';
 import mobileCup from '../../images/mobile/image-stand-out.jpg';
-import mobileCherries from '../../images/mobile/image-graphic-design.jpg';
-import mobileOrange from '../../images/mobile/image-gallery-orange.jpg';
+import desktopEgg from '../../images/desktop/image-transform.jpg';
+import desktopCup from '../../images/desktop/image-stand-out.jpg';
 
 import ProductItem from './ProductItem';
 import ProductDesign from './ProductDesign';
@@ -33,18 +35,20 @@ const productDesign = [
 ];
 
 const Products = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   return (
     <div>
       {/* First Section */}
-      <div>
+      <div className="md:flex md:flex-col md:w-full">
         <ProductItem
-          image={mobileEgg}
+          flexDir="flex-row-reverse"
+          image={windowWidth >= 768 ? desktopEgg : mobileEgg}
           title={productItems[0].title}
           description={productItems[0].description}
           color="border-yellow/25"
         />
         <ProductItem
-          image={mobileCup}
+          image={windowWidth >= 768 ? desktopCup : mobileCup}
           title={productItems[1].title}
           description={productItems[1].description}
           color="border-soft-red/25"
@@ -52,7 +56,7 @@ const Products = () => {
       </div>
 
       {/* Second Section */}
-      <div>
+      <div className="md:flex">
         <ProductDesign
           title={productDesign[0].title}
           description={productDesign[0].description}
