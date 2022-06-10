@@ -42,7 +42,7 @@ const Products = () => {
       {/* First Section */}
       <div className="md:flex md:flex-col md:w-full">
         <ProductItem
-          flexDir="flex-row-reverse"
+          flexDir="md:flex-row-reverse"
           image={windowWidth < 768 ? mobileEgg : desktopEgg}
           title={productItems[0].title}
           description={productItems[0].description}

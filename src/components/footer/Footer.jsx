@@ -17,9 +17,9 @@ const Footer = () => {
       </div>
       <div className="w-full">
         <ul className="flex justify-around w-full text-mid-mint">
-          <li>About</li>
-          <li>Services</li>
-          <li>Projects</li>
+          <li className="hover:text-white cursor-pointer">About</li>
+          <li className="hover:text-white cursor-pointer">Services</li>
+          <li className="hover:text-white cursor-pointer">Projects</li>
         </ul>
       </div>
       <div className="flex space-x-10">
