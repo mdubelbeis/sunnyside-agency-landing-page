@@ -1,9 +1,9 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
-import mobileEgg from '../../images/mobile/image-transform.jpg';
-import mobileCup from '../../images/mobile/image-stand-out.jpg';
-import desktopEgg from '../../images/desktop/image-transform.jpg';
-import desktopCup from '../../images/desktop/image-stand-out.jpg';
+import mobileEgg from '../../../assets/mobile/image-transform.jpg';
+import mobileCup from '../../../assets/mobile/image-stand-out.jpg';
+import desktopEgg from '../../../assets/desktop/image-transform.jpg';
+import desktopCup from '../../../assets/desktop/image-stand-out.jpg';
 
 import ProductItem from './ProductItem';
 import ProductDesign from './ProductDesign';

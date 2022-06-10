@@ -1,7 +1,13 @@
-import mobileMilkBottles from '../images/mobile/image-gallery-milkbottles.jpg';
-import mobileCone from '../images/mobile/image-gallery-cone.jpg';
-import mobileOrange from '../images/mobile/image-gallery-orange.jpg';
-import mobileSugarCubes from '../images/mobile/image-gallery-sugar-cubes.jpg';
+import mobileMilkBottles from '../../assets/mobile/image-gallery-milkbottles.jpg';
+import mobileCone from '../../assets/mobile/image-gallery-cone.jpg';
+import mobileOrange from '../../assets/mobile/image-gallery-orange.jpg';
+import mobileSugarCubes from '../../assets/mobile/image-gallery-sugar-cubes.jpg';
+
+// Still going to have to figure out best way to use srcSet for responsiveness
+import desktopMilkBottles from '../../assets/desktop/image-gallery-milkbottles.jpg';
+import desktopCone from '../../assets/desktop/image-gallery-cone.jpg';
+import desktopOrange from '../../assets/desktop/image-gallery-orange.jpg';
+import desktopSugarCubes from '../../assets/desktop/image-gallery-sugarcubes.jpg';
 
 const Images = () => {
   return (

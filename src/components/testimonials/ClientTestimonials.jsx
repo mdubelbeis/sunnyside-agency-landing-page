@@ -1,6 +1,6 @@
-import clientEmily from '../../images/image-emily.jpg';
-import clientThomas from '../../images/image-thomas.jpg';
-import clientJennie from '../../images/image-jennie.jpg';
+import clientEmily from '../../../assets/images/image-emily.jpg';
+import clientThomas from '../../../assets/images/image-thomas.jpg';
+import clientJennie from '../../../assets/images/image-jennie.jpg';
 
 import Client from './Client';
 
