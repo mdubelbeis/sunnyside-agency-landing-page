@@ -11,8 +11,8 @@ const ProductItem = ({
       <div className="md:w-6/12">
         <img src={image} alt={image} />
       </div>
-      <div className="py-6 px-10 w-full space-y-4 lg:space-y-6 text-center md:w-6/12 md:text-left md:flex md:flex-col md:items-start md:justify-center">
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-fraunces text-very-dark-desaturated-blue">
+      <div className="py-6 px-10 w-full space-y-4 lg:space-y-6 text-center md:w-6/12 md:text-left md:flex md:flex-col md:items-start md:justify-center lg:px-20">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-fraunces text-very-dark-desaturated-blue lg:pr-20">
           {title}
         </h2>
         <p className="text-md md:text-lg lg:text-xl text-dark-grayish-blue">
