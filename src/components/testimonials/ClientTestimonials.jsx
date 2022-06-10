@@ -27,11 +27,11 @@ const testimonial = [
 
 const ClientTestimonials = () => {
   return (
-    <section className="flex flex-col space-y-8 mt-10 text-center md:mt-32">
+    <section className="flex flex-col space-y-8 text-center p-24">
       <h2 className="font-fraunces text-grayish-blue tracking-widest text-base">
         CLIENT TESTIMONIALS
       </h2>
-      <div className="space-y-12 p-8 md:flex md:items-center md:space-y-0 md:space-x-4">
+      <div className="space-y-12 p-8 md:flex md:items-center md:space-y-0 md:space-x-10">
         <Client testimonial={testimonial[0]} img={clientEmily} />
         <Client testimonial={testimonial[1]} img={clientThomas} />
         <Client testimonial={testimonial[2]} img={clientJennie} />
