@@ -47,14 +47,14 @@ const Products = () => {
           title={productItems[0].title}
           description={productItems[0].description}
           color="border-yellow/25"
-          hoverColor="-yellow-500"
+          hoverColor="hover:border-yellow/50"
         />
         <ProductItem
           image={windowWidth < 768 ? mobileCup : desktopCup}
           title={productItems[1].title}
           description={productItems[1].description}
           color="border-soft-red/25"
-          hoverColor="-red-500"
+          hoverColor="hover:border-soft-red/50"
         />
       </div>
 

@@ -1,7 +1,11 @@
+import { useState } from 'react';
+
 const NavLinks = ({ showMenu }) => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const clippedMenu = windowWidth < 768 ? 'nav-clip' : '';
   return (
     <div
-      className={`absolute top-32 left-8 bg-pure-white text-center border-1 w-10/12 p-8 ${
+      className={`${clippedMenu} absolute top-20 left-10 bg-pure-white text-center border-1 w-10/12 p-20 ${
         showMenu ? '' : 'hidden'
       } lg:block lg:static lg:bg-transparent lg:top-0 lg:left-0 lg:m-0 lg:p-0 lg:h-full lg:w-auto`}
     >

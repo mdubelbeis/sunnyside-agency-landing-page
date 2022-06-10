@@ -7,7 +7,7 @@ const ProductItem = ({
   hoverColor,
 }) => {
   return (
-    <div className={`md:flex md:${flexDir}`}>
+    <div className={`md:flex ${flexDir}`}>
       <div className="md:w-6/12">
         <img src={image} alt={image} />
       </div>
@@ -22,7 +22,7 @@ const ProductItem = ({
           <a className="font-fraunces" href="#">
             LEARN MORE
             <div
-              className={`border-4 w-[125px] mx-auto ${color} font-fraunces rounded-xl relative -top-2 md:mx-0`}
+              className={`border-4 w-[125px] mx-auto ${color} font-fraunces rounded-xl relative -top-2 md:mx-0 ${hoverColor}`}
             ></div>
           </a>
         </div>

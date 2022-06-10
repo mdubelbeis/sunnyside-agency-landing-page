@@ -4,3 +4,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .nav-clip {
+    clip-path: polygon(85% 13%, 100% 0, 100% 100%, 0 100%, 0 13%);
+  }
+}

@@ -3,14 +3,14 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'mobile-header-image':
-          "url('./src/images/mobile/image-header.jpg')",
-        'desktop-header-image':
-          "url('./src/images/desktop/image-header.jpg')",
+        'mobile-header-image': "url('./src/images/mobile/image-header.jpg')",
+        'desktop-header-image': "url('./src/images/desktop/image-header.jpg')",
         'mobile-product-image__graphic-design':
           "url('./src/images/mobile/image-graphic-design.jpg')",
         'mobile-product-image__photography':
           "url('./src/images/mobile/image-photography.jpg')",
+        'nav-clip':
+          'clip-path: polygon(85% 13%, 100% 0, 100% 100%, 0 100%, 0 13%)',
       },
       fontFamily: {
         barlow: ['Barlow', 'sans-serif'],
