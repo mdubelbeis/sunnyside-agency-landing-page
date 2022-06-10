@@ -5,6 +5,8 @@ module.exports = {
       backgroundImage: {
         'mobile-header-image':
           "url('./src/images/mobile/image-header.jpg')",
+        'desktop-header-image':
+          "url('./src/images/desktop/image-header.jpg')",
         'mobile-product-image__graphic-design':
           "url('./src/images/mobile/image-graphic-design.jpg')",
         'mobile-product-image__photography':
