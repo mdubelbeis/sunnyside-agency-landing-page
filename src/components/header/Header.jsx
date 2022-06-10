@@ -1,9 +1,14 @@
+import { useState } from 'react';
+
 import Navbar from './Navbar';
 
 const Header = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const headerImg =
+    windowWidth < 768 ? 'bg-mobile-header-image' : 'bg-desktop-header-image';
   return (
     <header
-      className={`w-full h-[600px] bg-desktop-header-image bg-no-repeat bg-cover bg-center p-4`}
+      className={`w-full h-[540px] ${headerImg} bg-no-repeat bg-cover bg-center object-contain p-4`}
     >
       <Navbar />
       <div className="flex flex-col items-center space-y-16">
