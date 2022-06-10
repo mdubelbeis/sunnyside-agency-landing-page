@@ -1,8 +1,9 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const NavLinks = ({ showMenu }) => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const clippedMenu = windowWidth < 768 ? 'nav-clip' : '';
+
   return (
     <div
       className={`${clippedMenu} absolute top-20 left-10 bg-pure-white text-center border-1 w-10/12 p-20 ${

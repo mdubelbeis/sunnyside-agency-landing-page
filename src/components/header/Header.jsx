@@ -13,11 +13,7 @@ const Header = () => {
           </h1>
         </div>
         <div>
-          <svg
-            width="36"
-            height="114"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg width="36" height="114" xmlns="http://www.w3.org/2000/svg">
             <g
               stroke="#FFF"
               strokeWidth="6"

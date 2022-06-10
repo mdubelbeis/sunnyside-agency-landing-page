@@ -3,16 +3,16 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'mobile-header-image': "url('./assets/mobile/image-header.jpg')",
-        'desktop-header-image': "url('./assets/desktop/image-header.jpg')",
+        'mobile-header-image': "url('/assets/mobile/image-header.jpg')",
+        'desktop-header-image': "url('/assets/desktop/image-header.jpg')",
         'mobile-product-image__graphic-design':
-          "url('./assets/mobile/image-graphic-design.jpg')",
+          "url('/assets/mobile/image-graphic-design.jpg')",
         'mobile-product-image__photography':
-          "url('./assets/mobile/image-photography.jpg')",
+          "url('/assets/mobile/image-photography.jpg')",
         'desktop-product-image__graphic-design':
-          "url('./assets/desktop/image-graphic-design.jpg')",
+          "url('/assets/desktop/image-graphic-design.jpg')",
         'desktop-product-image__photography':
-          "url('./assets/desktop/image-photography.jpg')",
+          "url('/assets/desktop/image-photography.jpg')",
         'nav-clip':
           'clip-path: polygon(85% 13%, 100% 0, 100% 100%, 0 100%, 0 13%)',
       },
