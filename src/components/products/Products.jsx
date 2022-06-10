@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import mobileEgg from '../../images/mobile/image-transform.jpg';
 import mobileCup from '../../images/mobile/image-stand-out.jpg';
@@ -36,19 +36,20 @@ const productDesign = [
 
 const Products = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
   return (
     <div>
       {/* First Section */}
       <div className="md:flex md:flex-col md:w-full">
         <ProductItem
           flexDir="flex-row-reverse"
-          image={windowWidth >= 768 ? desktopEgg : mobileEgg}
+          image={windowWidth < 768 ? mobileEgg : desktopEgg}
           title={productItems[0].title}
           description={productItems[0].description}
           color="border-yellow/25"
         />
         <ProductItem
-          image={windowWidth >= 768 ? desktopCup : mobileCup}
+          image={windowWidth < 768 ? mobileCup : desktopCup}
           title={productItems[1].title}
           description={productItems[1].description}
           color="border-soft-red/25"

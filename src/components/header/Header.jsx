@@ -2,7 +2,9 @@ import Navbar from './Navbar';
 
 const Header = () => {
   return (
-    <header className="w-full h-[700px] bg-mobile-header-image bg-no-repeat bg-cover p-4">
+    <header
+      className={`w-full h-[600px] bg-desktop-header-image bg-no-repeat bg-cover bg-center p-4`}
+    >
       <Navbar />
       <div className="flex flex-col items-center space-y-16">
         <div className="mt-16">
