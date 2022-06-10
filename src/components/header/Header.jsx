@@ -13,7 +13,7 @@ const Header = () => {
       <Navbar />
       <div className="flex flex-col items-center space-y-16">
         <div className="mt-16">
-          <h1 className="font-fraunces text-pure-white font-bold text-4xl px-4 text-center tracking-widest">
+          <h1 className="font-fraunces text-pure-white font-bold text-4xl px-4 text-center tracking-widest md:text-7xl">
             WE ARE CREATIVES
           </h1>
         </div>
