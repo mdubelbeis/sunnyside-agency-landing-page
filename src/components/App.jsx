@@ -6,7 +6,7 @@ import Footer from './footer/Footer';
 
 const App = () => {
   return (
-    <div className="max-w-[1440px] w-full mx-auto h-full">
+    <div className="max-w-[1440px] w-full mx-auto h-full overflow-y-hidden">
       <Header />
       <main>
         <Products />
