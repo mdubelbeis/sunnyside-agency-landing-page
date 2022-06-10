@@ -14,6 +14,13 @@ const socialLinks = [
   'https://pinterest.com',
 ];
 
+const ariaLabels = [
+  'Visit Facebook',
+  'Visit Instagram',
+  'Visit Twitter',
+  'Visit Pinterest',
+];
+
 const Footer = () => {
   return (
     <footer className="flex flex-col items-center bg-light-mint py-12 space-y-12">
@@ -33,7 +40,11 @@ const Footer = () => {
         {svgDPaths.map((path, idx) => {
           return (
             <div key={idx}>
-              <SocialLinks dPath={path} href={socialLinks[idx]} />
+              <SocialLinks
+                dPath={path}
+                href={socialLinks[idx]}
+                label={ariaLabels[idx]}
+              />
             </div>
           );
         })}
