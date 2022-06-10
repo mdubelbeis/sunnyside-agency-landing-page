@@ -8,7 +8,7 @@ const Header = () => {
     windowWidth < 768 ? 'bg-mobile-header-image' : 'bg-desktop-header-image';
   return (
     <header
-      className={`w-full h-[750px] ${headerImg} bg-no-repeat bg-cover bg-center object-contain p-4`}
+      className={`w-full h-[800px] ${headerImg} bg-no-repeat bg-cover bg-center object-contain p-4`}
     >
       <Navbar />
       <div className="flex flex-col items-center space-y-16">
