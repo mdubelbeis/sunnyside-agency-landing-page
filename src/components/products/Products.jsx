@@ -36,7 +36,14 @@ const productDesign = [
 
 const Products = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
+  const gdBackgroundImg =
+    windowWidth < 768
+      ? 'bg-mobile-product-image__graphic-design'
+      : 'bg-desktop-product-image__graphic-design';
+  const photoBackgroundImg =
+    windowWidth < 768
+      ? 'bg-mobile-product-image__photography'
+      : 'bg-desktop-product-image__photography';
   return (
     <div>
       {/* First Section */}
@@ -63,12 +70,12 @@ const Products = () => {
         <ProductDesign
           title={productDesign[0].title}
           description={productDesign[0].description}
-          bgImage="bg-mobile-product-image__graphic-design"
+          backgroundImg={gdBackgroundImg}
         />
         <ProductDesign
           title={productDesign[1].title}
           description={productDesign[1].description}
-          bgImage="bg-mobile-product-image__photography"
+          backgroundImg={photoBackgroundImg}
         />
       </div>
     </div>
