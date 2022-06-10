@@ -23,9 +23,9 @@ const Footer = () => {
         </ul>
       </div>
       <div className="flex space-x-10">
-        {svgDPaths.map((path) => {
+        {svgDPaths.map((path, idx) => {
           return (
-            <div>
+            <div key={idx}>
               <SocialLinks dPath={path} />
             </div>
           );
