@@ -17,7 +17,7 @@ const NavLinks = ({ showMenu }) => {
         </li>
         <li>
           <a
-            className="bg-yellow px-6 py-4 rounded-full text-black hover:text-white hover:bg-blue-400 font-fraunces"
+            className="bg-yellow px-6 py-4 rounded-full text-black hover:text-white hover:bg-blue-800 font-fraunces"
             href="#"
           >
             CONTACT

@@ -3,7 +3,7 @@ const Client = ({ testimonial, img }) => {
     <div className="flex flex-col items-center">
       <div>
         <img
-          className="rounded-full w-12"
+          className="rounded-full w-16 lg:w-20"
           src={img}
           alt="client picture"
         />
