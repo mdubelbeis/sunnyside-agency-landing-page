@@ -27,7 +27,7 @@ const testimonial = [
 
 const ClientTestimonials = () => {
   return (
-    <section className="flex flex-col space-y-8 text-center p-24 md:p-4">
+    <section className="flex flex-col space-y-8 text-center p-24 md:p-4 lg:my-20">
       <h2 className="font-fraunces text-grayish-blue tracking-widest text-base">
         CLIENT TESTIMONIALS
       </h2>
