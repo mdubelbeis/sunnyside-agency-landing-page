@@ -1,5 +1,5 @@
 const SocialLinks = ({
-  href = 'https://www.frontendmentor.io/profile/mdubelbeis',
+  href,
   width = '20',
   height = '20',
   dPath,
