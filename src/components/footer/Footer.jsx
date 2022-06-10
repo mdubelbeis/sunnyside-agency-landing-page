@@ -33,7 +33,7 @@ const Footer = () => {
         {svgDPaths.map((path, idx) => {
           return (
             <div key={idx}>
-              <SocialLinks dPath={path} url={socialLinks[idx]} />
+              <SocialLinks dPath={path} href={socialLinks[idx]} />
             </div>
           );
         })}
